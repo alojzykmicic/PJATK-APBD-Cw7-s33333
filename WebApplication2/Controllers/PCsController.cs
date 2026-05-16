@@ -4,7 +4,7 @@ using WebApplication2.Services;
 
 namespace WebApplication2.Controllers;
 
-[Microsoft.AspNetCore.Components.Route("api/[controller]")]
+[Route("api/[controller]")]
 [ApiController]
 public class PCsController : ControllerBase
 {
