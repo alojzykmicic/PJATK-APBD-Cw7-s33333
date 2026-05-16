@@ -41,7 +41,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Component>(entity =>
         {
             entity.HasKey(e => e.Code);
-            entity.Property(e => e.Code).HasColumnType("cahr(10)");
+            entity.Property(e => e.Code).HasColumnType("char(10)");
             entity.Property(e => e.Name).IsRequired().HasMaxLength(300);
             entity.Property(e => e.Description).HasColumnType("nvarchar(max)");
 
