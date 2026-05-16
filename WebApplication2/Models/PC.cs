@@ -3,7 +3,7 @@
 public class PC
 {
     public int Id { get; set; }
-    public string Name { get; private set; }
+    public string Name { get; set; }
     public double Weight { get; set; }
     public int Warranty { get; set; }
     public DateTime CreatedAt { get; set; }
